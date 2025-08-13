@@ -2,6 +2,8 @@ import facebook from "../assets/facebook (1) 2.png";
 import tel from "../assets/telegram (1) 2.png";
 import inst from "../assets/instagram (1) 2.png";
 import logo from "../assets/logo (4).png";
+
+import {Link} from "react-router-dom"
 export default function Footer() {
   return (
     <>
@@ -44,9 +46,9 @@ export default function Footer() {
               <li className="py-0.5 text-white ">
                 Ish vaqti: Dushanba–Juma, 9:00–18:00
               </li>
-                            <li className="py-0.5 text-white " onClick={null}>
+                            <Link to="/AdminReg" className="py-0.5 text-white " onClick={null}>
                 admin
-              </li>
+              </Link>
             </ul>
           </div>
 

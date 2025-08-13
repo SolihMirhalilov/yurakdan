@@ -23,7 +23,7 @@ export default function News() {
       img: "https://via.placeholder.com/400x250?text=Muhammadrazo",
     },
     {
-      id: 3,
+      id:4 ,
       name: "8 yoshli Muhammadrazo kerakli mablag‘ni 2 kunda oldi",
       description:
         "Yurakdan Yurakkacha loyihasi orqali yurak operatsiyasi uchun kerak bo‘lgan 12 million so‘m atigi 48 soat ichida yig‘ildi.",
